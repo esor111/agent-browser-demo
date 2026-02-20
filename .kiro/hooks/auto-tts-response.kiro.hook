@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Auto TTS for AI Responses",
+  "description": "Automatically reads AI responses aloud using text-to-speech after each reply",
+  "version": "1",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Summarize my last response using the 80/20 rule - extract only the core 20% of key points that give 80% of the value. Remove technical details, code explanations, and verbose content. Then convert this concise summary to speech using the text_to_speech MCP tool. Make it natural and easy to listen to."
+  }
+}

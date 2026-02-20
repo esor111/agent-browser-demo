@@ -1,0 +1,19 @@
+{
+  "name": "agent-browser-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node simple-test.js",
+    "demo": "node demo.js",
+    "install-browser": "node_modules\\agent-browser\\bin\\agent-browser-win32-x64.exe install",
+    "quick-test": "test.bat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "agent-browser": "^0.6.0"
+  }
+}
