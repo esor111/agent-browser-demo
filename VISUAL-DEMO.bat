@@ -1,40 +1,42 @@
 @echo off
-echo ========================================
-echo VISUAL BROWSER DEMO
-echo Watch the browser window!
-echo ========================================
-echo.
+echo Killing old processes...
+taskkill /F /IM node.exe >nul 2>&1
+taskkill /F /IM chrome.exe >nul 2>&1
+timeout /t 3 /nobreak >nul
 
-echo Opening browser window...
-.\ab --headed open example.com
-timeout /t 3
+echo Opening browser (visible mode)...
+call .\ab --headed open https://github.com/login
+timeout /t 8 /nobreak >nul
 
-echo.
-echo Clicking the "More information" link...
-.\ab --headed click "link More information"
-timeout /t 3
+echo Filling username...
+call .\ab fill '@e2' 'esor111'
+timeout /t 4 /nobreak >nul
 
-echo.
-echo Going back...
-.\ab --headed back
-timeout /t 2
+echo Filling password...
+call .\ab fill '@e3' 'ishwor19944'
+timeout /t 3 /nobreak >nul
 
-echo.
-echo Taking a screenshot...
-.\ab --headed screenshot visual-demo.png
-timeout /t 2
+echo Clicking sign in...
+call .\ab click '@e5'
+timeout /t 8 /nobreak >nul
 
-echo.
-echo Opening GitHub...
-.\ab --headed open github.com
-timeout /t 3
+echo Navigating to repositories...
+call .\ab open https://github.com/esor111?tab=repositories
+timeout /t 5 /nobreak >nul
 
-echo.
-echo Scrolling down...
-.\ab --headed scroll down 500
-timeout /t 2
+echo Getting first repo URL...
+call .\ab eval "document.querySelector('#user-repositories-list li a').href"
+timeout /t 2 /nobreak >nul
+
+echo Taking screenshot...
+call .\ab screenshot github-result.png
+timeout /t 2 /nobreak >nul
 
 echo.
-echo Done! Browser window will stay open.
-echo Run: .\ab close
-echo to close it.
+echo ===== AUTOMATION COMPLETE =====
+echo Screenshot saved: github-result.png
+echo.
+pause
+
+echo Closing browser...
+call .\ab close
