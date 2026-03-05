@@ -20,22 +20,22 @@ if errorlevel 1 (
 )
 timeout /t 4 /nobreak >nul
 
-REM Take snapshot to get refs
+REM Get page elements with snapshot
 echo [2/9] Getting page elements...
 call .\ab snapshot -i >nul
 timeout /t 2 /nobreak >nul
 
-REM Fill username
+REM Fill username using ref
 echo [3/9] Filling username...
 call .\ab fill "@e2" "esor111"
 timeout /t 2 /nobreak >nul
 
-REM Fill password
+REM Fill password using ref
 echo [4/9] Filling password...
 call .\ab fill "@e3" "ishwor19944"
 timeout /t 2 /nobreak >nul
 
-REM Click sign in
+REM Click sign in using ref
 echo [5/9] Clicking sign in button...
 call .\ab click "@e5"
 echo Waiting for login to complete...
