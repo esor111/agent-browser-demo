@@ -1,0 +1,16 @@
+
+==============================================
+  🚀 DARAZ AUTOMATED SEARCH
+==============================================
+Product: laptop
+Timestamp: 20260305_110620
+==============================================
+
+[0;34m[11:06:20][0m Opening Daraz.com.pk...
+[32m✓[0m [1mdaraz.com.pk - Shopping online Resources and Information.[0m
+  [2mhttps://www.daraz.com.pk/[0m
+[0;32m[✓][0m Daraz opened
+[0;34m[11:06:27][0m Analyzing page structure...
+[0;32m[✓][0m Snapshot saved: ./automation-results/snapshot_20260305_110620.json
+[0;34m[11:06:29][0m Searching for: laptop
+[32m✓[0m Done
