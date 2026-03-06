@@ -1,0 +1,20 @@
+✓ Loaded environment: dev
+✓ Loaded data generators
+✓ Configuration loaded successfully
+
+========================================
+ SETUP AND TEST BOOKING FLOW
+========================================
+
+[1/3] Checking if hotels exist...
+[32m✓[0m [1mSearch Hotels & Properties | Kaha Stays Nepal[0m
+  [2mhttp://localhost:3001/hotels[0m
+[32m✓[0m Done
+  Found 0 properties
+  ⚠️  No hotels found - need to create test data
+[32m✓[0m Browser closed
+
+[2/3] Creating test property with rooms...
+  Running property onboarding...
+bash: /home/ishwor/Desktop/work/kiro-hotel/hotel-automation/frontend-tests/config/frontend-tests/property-onboarding-complete.sh: No such file or directory
+  ✗ Property onboarding failed

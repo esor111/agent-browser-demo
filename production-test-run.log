@@ -1,0 +1,62 @@
+[H[2J[3J[0;36m[1m=========================================[0m
+[0;36m[1m PRODUCTION TEST SUITE[0m
+[0;36m[1m=========================================[0m
+
+[0;36mTest Suite Information:[0m
+  • Total Tests: 6
+  • Timestamp: 2026-03-06 13:06:34
+  • Report: ./test-results/production-test-report-20260306_130634.txt
+  • HTML Report: ./test-results/production-test-report-20260306_130634.html
+
+[0;36mPre-flight Checks:[0m
+  ✅ Frontend is running
+  ✅ Backend is running
+
+[0;36mStarting test execution...[0m
+
+[0;36m[1/6] Login Flow[0m
+[0m    Description: Owner authentication[0m
+[0;32m    ✅ PASSED (25s)[0m
+
+[0;36m[2/6] Property Onboarding[0m
+[0m    Description: Register + Create Property[0m
+[0;32m    ✅ PASSED (71s)[0m
+
+[0;36m[3/6] Add Rooms[0m
+[0m    Description: Room type + Room creation[0m
+[0;32m    ✅ PASSED (51s)[0m
+
+[0;36m[4/6] Owner Booking Management[0m
+[0m    Description: Full booking lifecycle[0m
+[0;32m    ✅ PASSED (56s)[0m
+
+[0;36m[5/6] Payment Recording[0m
+[0m    Description: Revenue tracking[0m
+[0;32m    ✅ PASSED (64s)[0m
+
+[0;36m[6/6] Rate Plan Management[0m
+[0m    Description: Pricing strategies[0m
+[0;32m    ✅ PASSED (37s)[0m
+
+[0;36m[1m=========================================[0m
+[0;36m[1m TEST SUITE RESULTS[0m
+[0;36m[1m=========================================[0m
+
+[0;32m[1m  🎉 ALL TESTS PASSED! 🎉[0m
+
+[0;36mStatistics:[0m
+  • Total Tests:    6
+  • Passed:         6
+  • Failed:         0
+  • Retried:        0
+  • Success Rate:   100%
+  • Total Time:     5m 38s
+
+[0;36mReports generated:[0m
+  📄 Text: ./test-results/production-test-report-20260306_130634.txt
+  🌐 HTML: ./test-results/production-test-report-20260306_130634.html
+
+[0;32m[1m=========================================[0m
+[0;32m[1m ✅ TEST SUITE PASSED[0m
+[0;32m[1m=========================================[0m
+

@@ -1,0 +1,25 @@
+========================================
+ HOTEL AUTOMATION TEST REPORT
+ Generated: 2026-03-05 21:22:01
+========================================
+
+✅ PASS | Login Flow | 53s | Owner authentication
+❌ FAIL | Hotel Search | 23s | Customer hotel discovery
+❌ FAIL | Date Picker | 5s | Calendar date selection
+❌ FAIL | Complete Booking Flow | 13s | End-to-end customer journey
+❌ FAIL | Property Onboarding (Existing) | 38s | Login + Create Property
+✅ PASS | Property Onboarding (New User) | 70s | Register + Create Property
+❌ FAIL | Add Rooms | 43s | Room type + Room creation
+✅ PASS | Owner Booking Management | 46s | Full booking lifecycle
+✅ PASS | Payment Recording | 55s | Revenue tracking
+✅ PASS | Rate Plan Management | 29s | Pricing strategies
+Test Execution Summary:
+
+  ⚠️  SOME TESTS FAILED
+
+Statistics:
+  • Total Tests:    10
+  • Passed:         5
+  • Failed:         5
+  • Success Rate:   50%
+  • Total Time:     6m 15s

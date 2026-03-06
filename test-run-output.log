@@ -1,0 +1,33 @@
+[H[2J[3J
+[0;36m[1m=========================================[0m
+[0;36m[1m CRITICAL TESTS RUNNER[0m
+[0;36m[1m=========================================[0m
+
+Running 5 critical tests...
+
+[0;36m[1/5] Property Onboarding (New User)[0m
+[0;32m    ✅ PASSED (76s)[0m
+
+[0;36m[2/5] Add Rooms[0m
+[0;31m    ❌ FAILED (56s)[0m
+
+[0;36m[3/5] Owner Booking Management[0m
+[0;32m    ✅ PASSED (61s)[0m
+
+[0;36m[4/5] Payment Recording[0m
+[0;32m    ✅ PASSED (65s)[0m
+
+[0;36m[5/5] Rate Plan Management[0m
+[0;32m    ✅ PASSED (41s)[0m
+
+[0;36m[1m=========================================[0m
+[0;36m[1m RESULTS[0m
+[0;36m[1m=========================================[0m
+
+  Total:   5
+  Passed:  4
+  Failed:  1
+  Time:    5m 9s
+
+[0;31m[1m❌ SOME TESTS FAILED[0m
+
